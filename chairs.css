@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 48px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 30px;
+  font-style: 600;
+}
+p {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+.flex {
+  display: flex;
+  gap: 80px;
+}
+.flex2 {
+  background-color: rgb(3, 56, 3, 0.8);
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  gap: 80px;
+}
+.btn_big {
+  text-transform: uppercase;
+  color: white;
+  padding: 20px;
+  background-color: rgb(3, 56, 3, 0.8);
+  border-radius: 50px;
+  width: 200px;
+  font-size: large;
+  border-style: none;
+}
+.img_product {
+  border-radius: 10px;
+  /* border-style: none;*/
+}
+figure {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
+.pad {
+  padding: 30px;
+}
+h2 {
+  margin-bottom: 40px;
+}
+h4,
+p {
+  margin-top: 20px;
+}
+.features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  margin-bottom: 10px;
+}
+strong {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.para {
+  font-style: italic;
+  margin-bottom: 24px;
+}
+footer {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 50px;
+}
+h3 {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+li {
+  line-height: 2;
+  list-style: none;
+}
+.chair-price {
+  display: flex;
+  justify-content: space-between;
+}
+.details_box li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  /* text-align: center;
+  margin-left: 20px;*/
+}
+.chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}
+.img_product3 {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.btn--small {
+  background-color: #087f5b;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+footer {
+  margin-bottom: 48px;
+  font-size: 14px;
+  color: #495057;
+}
